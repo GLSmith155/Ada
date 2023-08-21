@@ -16,7 +16,7 @@ begin
     Put_Line("The current iteration of the loop: " & Integer'Image (I));
   end loop;
   
-  -- Bare loop
+  -- Bare loop.          This loop is simpler than the others and is actually the logical basis for other loops.
   loop
     Put_Line ("Bare Loop Test " & Integer'Image(I));
     exit when I = 5;
